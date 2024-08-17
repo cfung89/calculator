@@ -13,7 +13,7 @@ const Button = ({ name, calc, setCalc }: IButton) => {
     if (name === "CE") {
       setCalc(calc.slice(0, -1));
     } else if (name === "=") {
-      const res = calculate(calc);
+      setCalc(calculate(calc));
     } else if (calc.length <= 30) {
       setCalc(calc.concat(name));
     }

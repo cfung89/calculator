@@ -17,7 +17,7 @@ const Box = ({ calc, setCalc }: IBox) => {
 
   const onSubmit = (e: React.SyntheticEvent) => {
     e.preventDefault();
-    const res = calculate(calc);
+    setCalc(calculate(calc));
   };
 
   return (
