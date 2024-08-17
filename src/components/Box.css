@@ -1,0 +1,14 @@
+.textbox {
+  background-color: #707070;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  width: 527px;
+  text-align: right;
+  color: white;
+  border-radius: 25px;
+}
+
+.textbox:focus {
+  outline: none;
+}
