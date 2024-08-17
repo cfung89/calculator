@@ -5,6 +5,10 @@
 Simple non-scientific calculator app using React and TypeScript for practice.
 Parentheses and any operation priority is ignored.
 
+<p align="center" width="100%">
+    <img width="50%" src="./public/calculator.png"> 
+</p>
+
 ## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
